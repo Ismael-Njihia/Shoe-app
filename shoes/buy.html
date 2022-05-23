@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buying page</title>
+    <link rel="stylesheet" href="buy.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=AVYFKFhp4gB8T9quPG8MGlHzvq19KvcSsUi_Vlhynl8vmSWWnG2kpvcvHlj6i_JezJFATeq5jlmUc-KM"></script>
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+
+    <div class="items">
+        <img src=" " id="shoeImage" alt="the shoe you clicked" height="500px" width="500px">
+        <div class="buy-banner">
+            <p id="name"></p>
+            <p id="desc"></p>
+            <h1 id="price"></h1>
+            <br>
+            <div class="noofitems">
+                <input type="number" id="noofitems" placeholder="Enter the number of items you want to buy">
+            </div>
+            <br><br>
+
+            <div class="location">
+                <label for="">Choose your Location: </label>
+                <select id="Location">
+                    <option value="null">Select your location</option>
+                    <option value="Muranga">Muranga</option>
+                    <option value="Kiambu">Kiambu</option>
+                    <option value="Nairobi">Nairobi</option>
+                </select>
+
+                <select id="precise">
+                    <option value="Maragua">Maragua </option>
+                    <option value="Kenol"> Kenol</option>
+                    <option value="Gatanga">Gatanga </option>
+            </select>
+
+                <select id="precise1">
+                    <option value="Thika">Thika </option>
+                    <option value="Juja">Juja </option>
+                    <option value="Ruiru">Ruiru </option>
+                </select>
+                <select id="precise2">
+                    <option value="CBD">CBD </option>
+                    <option value="Ruaraka">Ruaraka </option>
+                    <option value="Kilimani">Kilimani </option>
+                </select>
+            </div>
+
+            <br><br>
+
+            <div id="paypal-button-container">
+
+            </div>
+
+            <button>Buy now</button>
+
+        </div>
+
+
+
+        <div class="information">
+            <p id="priceinfo"> </p>
+            <p id="ttitems"> </p>
+            <p id="Grandtotal"> </p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+<script src="buy.js"></script>
+
+</html>

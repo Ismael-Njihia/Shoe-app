@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    height: 10vh;
+    background-color: green;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.tag {
+    margin-top: 50px;
+}
+
+.tag p {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.tag h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.airforce {
+    border: 5px solid gray;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.airforce:hover {
+    background-color: green;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+
+.jordan {
+    border: 5px solid gray;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.jordan:hover {
+    background-color: green;
+    transition: 1s;
+}
+
+.timber {
+    border: 5px solid gray;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.timber:hover {
+    background-color: green;
+    transition: 1s;
+}
